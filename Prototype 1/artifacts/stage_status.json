@@ -1,0 +1,14 @@
+{
+  "features": {
+    "status": "completed",
+    "updated_at": "2026-04-17T17:39:46.677505+00:00"
+  },
+  "train": {
+    "status": "completed",
+    "updated_at": "2026-04-17T17:39:53.900536+00:00"
+  },
+  "infer": {
+    "status": "completed",
+    "updated_at": "2026-04-17T17:40:08.583717+00:00"
+  }
+}

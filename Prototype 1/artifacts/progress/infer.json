@@ -1,0 +1,10 @@
+{
+  "stage": "infer",
+  "status": "completed",
+  "next_batch": 2,
+  "total_batches": 2,
+  "batch_size": 8,
+  "retries": {},
+  "last_error": "",
+  "updated_at": "2026-04-17T17:40:08.579785+00:00"
+}

@@ -1,0 +1,129 @@
+{
+  "mode": "audio",
+  "weights": [
+    0.4000000059604645,
+    0.4000000059604645,
+    0.20000000298023224
+  ],
+  "gate_threshold": 0.6,
+  "validation": {
+    "accuracy": 0.0,
+    "f1_weighted": 0.0,
+    "f1_macro": 0.0,
+    "report": "                     precision    recall  f1-score   support\n\nMachine 1__Abnormal       0.00      0.00      0.00       2.0\n  Machine 1__Normal       0.00      0.00      0.00       2.0\nMachine 2__Abnormal       0.00      0.00      0.00       1.0\n  Machine 2__Normal       0.00      0.00      0.00       1.0\nMachine 3__Abnormal       0.00      0.00      0.00       1.0\n  Machine 3__Normal       0.00      0.00      0.00       2.0\n\n           accuracy                           0.00       9.0\n          macro avg       0.00      0.00      0.00       9.0\n       weighted avg       0.00      0.00      0.00       9.0\n",
+    "confusion_matrix": [
+      [
+        0,
+        0,
+        1,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0,
+        1
+      ],
+      [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        1,
+        0,
+        0
+      ]
+    ]
+  },
+  "test": {
+    "accuracy": 0.0,
+    "f1_weighted": 0.0,
+    "f1_macro": 0.0,
+    "report": "                     precision    recall  f1-score   support\n\nMachine 1__Abnormal       0.00      0.00      0.00       1.0\n  Machine 1__Normal       0.00      0.00      0.00       1.0\nMachine 2__Abnormal       0.00      0.00      0.00       2.0\n  Machine 2__Normal       0.00      0.00      0.00       2.0\nMachine 3__Abnormal       0.00      0.00      0.00       2.0\n  Machine 3__Normal       0.00      0.00      0.00       1.0\n\n           accuracy                           0.00       9.0\n          macro avg       0.00      0.00      0.00       9.0\n       weighted avg       0.00      0.00      0.00       9.0\n",
+    "confusion_matrix": [
+      [
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        2,
+        0
+      ],
+      [
+        0,
+        2,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+      ]
+    ]
+  },
+  "classes": [
+    "Machine 1__Abnormal",
+    "Machine 1__Normal",
+    "Machine 2__Abnormal",
+    "Machine 2__Normal",
+    "Machine 3__Abnormal",
+    "Machine 3__Normal"
+  ]
+}

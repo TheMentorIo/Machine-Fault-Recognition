@@ -1,0 +1,19 @@
+{
+  "stage": "train",
+  "status": "completed",
+  "next_batch": 0,
+  "total_batches": 0,
+  "batch_size": 0,
+  "retries": {},
+  "last_error": "",
+  "updated_at": "2026-04-17T17:39:53.898541+00:00",
+  "steps": {
+    "scan": "completed",
+    "features": "completed",
+    "branch_a": "completed",
+    "branch_b": "completed",
+    "branch_c": "completed",
+    "calibration_and_weights": "completed",
+    "final_artifacts": "completed"
+  }
+}

@@ -1,0 +1,10 @@
+sample_index,pred,label,confidence,source
+12,3,Machine 2__Normal,0.40140387,branch_A
+41,0,Machine 1__Abnormal,0.7012422,branch_A
+40,2,Machine 2__Abnormal,0.41108435,branch_A
+26,4,Machine 3__Abnormal,0.72544116,branch_A
+53,1,Machine 1__Normal,0.42614436,branch_A
+4,4,Machine 3__Abnormal,0.4135344,branch_A
+20,4,Machine 3__Abnormal,0.41720566,branch_A
+28,1,Machine 1__Normal,0.64431787,branch_A
+36,1,Machine 1__Normal,0.43513682,branch_A

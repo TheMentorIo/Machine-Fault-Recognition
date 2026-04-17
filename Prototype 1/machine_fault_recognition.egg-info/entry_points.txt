@@ -1,0 +1,2 @@
+[console_scripts]
+mfr = machine_fault_recognition.cli.app:main

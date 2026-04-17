@@ -1,0 +1,30 @@
+[paths]
+input_dir = "Student"
+work_dir = "artifacts"
+model_path = "artifacts/pipeline_state.pkl"
+output_dir = "artifacts/output"
+
+[audio]
+sample_rate = 16000
+duration_seconds = 4.0
+rms_target_lufs = -23.0
+trim_threshold = 0.001
+n_fft = 1024
+hop_length = 256
+mel_bins = 128
+spec_frames = 256
+
+[training]
+seed = 42
+test_size = 0.15
+val_size = 0.15
+batch_size = 8
+micro_batch = 8
+num_workers = 0
+max_epochs = 1
+early_stopping_patience = 3
+
+[inference]
+gate_threshold = 0.60
+results_filename = "results.txt"
+time_filename = "time.txt"
