@@ -8,6 +8,12 @@
 ### Machine Fault Recognition
 **Spring 2026**
 
+## Preprocessing-only (working)
+- Install deps: `pip install -r requirements.txt`
+- Run on a folder: `python src/main.py --input "Prototype 1/Student" --output preprocessed`
+- Run on one file: `python src/main.py --input path\\to\\file.wav --output preprocessed`
+- Supported inputs: `.wav` always; `.flac/.ogg` if `soundfile` is installed (included in requirements)
+
 ---
 
 # Contents
